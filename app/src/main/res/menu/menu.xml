@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/action_hire"
+        android:title="채용정보"
+        app:showAsAction="withText" />
+    <item android:id="@+id/action_edu"
+        android:title="교육정보"
+        app:showAsAction="withText"/>
+    <item android:id="@+id/action_talent"
+        android:title="인재정보"
+        app:showAsAction="withText"/>
+</menu>

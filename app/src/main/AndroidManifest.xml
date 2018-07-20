@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.administrator.ekapp">
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17"
+        android:maxSdkVersion="25"
+        />
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.DIAL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/elite_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:name=".SplashActivity"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            tools:replace="android:theme"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+        <activity android:name=".MyPageActivity"></activity>
+        <activity android:name=".JobInfoActivity"></activity>
+        <activity android:name=".NewsActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".ArticleViewer"></activity>
+        <activity android:name=".ArticleWrite"></activity>
+        <activity android:name=".ArticleModify"></activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Fragment_Program" />
+        <!--<uses-sdk-->
+
+            <!--androidmaxSdkVersion="19"-->
+
+            <!--android:minSdkVersion="10"/>-->
+    </application>
+
+
+</manifest>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.03">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="관리자 권한이 필요한 페이지입니다."
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:textColor="#111111"/>
+
+        <EditText
+            android:id="@+id/login_id"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="id"
+            android:textColor="@color/colorPrimaryLight"
+            android:textCursorDrawable="@color/colorPrimaryLight"
+            android:backgroundTint="@color/colorPrimaryLight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="53dp"/>
+
+        <EditText
+            android:id="@+id/login_pw"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryLight"
+            android:textCursorDrawable="@color/colorPrimaryLight"
+            android:backgroundTint="@color/colorPrimaryLight"
+            android:inputType="textPassword"
+            android:hint="pw" />
+        <Button
+            android:id="@+id/login_button"
+            android:layout_gravity="center"
+            android:hint="login"
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:lineSpacingMultiplier="1.5"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!--Footer-->
+    <LinearLayout
+        android:id="@+id/footer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:background="#313131"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="대표이사 : 남경현 | 사업자등록번호 : 220-81-60839"
+            android:textAlignment="center"
+            android:textColor="#dddddd"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="주소 : 서울 금천구 가산디지털1로 233 에이스하이엔드타워 9차 806~808호"
+            android:textAlignment="center"
+            android:textColor="#dddddd"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="통신판매업 : 제2010-서울금천-0024호 | 직업정보제공사업 : 서울관악 제2009-23호"
+            android:textAlignment="center"
+            android:textColor="#dddddd"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="팩스 : 02-561-2250 | 전자우편 elite@elitekorea.com"
+            android:textAlignment="center"
+            android:textColor="#dddddd"
+            android:textSize="11dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text=" 고객센터 : 02-561-2133 (업무시간 10:00 ~ 18:00, 토요일 휴무)"
+            android:textAlignment="center"
+            android:textColor="#fdfdfd"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © 2017 Elitekorea Corp. All Rights Reserved."
+            android:textAlignment="center"
+            android:textColor="#dddddd"
+            android:textSize="9dp" />
+    </LinearLayout>
+</LinearLayout>

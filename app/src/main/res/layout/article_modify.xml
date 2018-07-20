@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <!--상단바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/topbar_border"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/article_button_cancel"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/transparency_border"
+            android:text="닫기"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/line_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/line_color"/>
+            <Button
+                android:id="@+id/article_button_complete"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/transparency_border"
+                android:text="완료"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--게시글 수정-->
+    <EditText
+        android:id="@+id/article_modify_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:textCursorDrawable="@color/colorPrimaryLight"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryLight"
+        android:background="@drawable/transparency_border"
+        android:hint="게시글 제목"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_calendar"
+            android:layout_gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/article_modify_id"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textCursorDrawable="@color/stroke"
+            android:inputType="date"
+            android:textSize="14dp"
+            android:background="@drawable/transparency_border"
+            android:hint="마감 기한"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ic_writer"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/article_modify_writer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:background="@drawable/transparency_border"
+            android:text="작성자"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#d9d9d9"/>
+
+    <EditText
+        android:id="@+id/article_modify_content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textCursorDrawable="@color/stroke"
+        android:padding="5dp"
+        android:gravity="top|left"
+        android:textSize="14dp"
+        android:lineSpacingMultiplier="1.5"
+        android:inputType="textMultiLine"
+        android:background="@drawable/transparency_border"
+        android:hint="모집 내용을 적어주세요."
+        android:layout_weight="0.55" />
+
+</LinearLayout>

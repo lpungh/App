@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:text="강사 모집공고"
+            android:textColor="#111111"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ELITE KOREA에서 진행할 예정인 프로그램의 강사를 모집합니다."
+            android:textSize="11dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"/>
+        <View
+            android:layout_width="60dp"
+            android:layout_height="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/colorPrimaryLight"/>
+
+        <!--Button-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:background="@drawable/transparency_border"
+            android:gravity="right">
+            <Button
+                android:id="@+id/main_button_refresh"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_refresh"
+                android:background="@drawable/transparency_border"
+                android:textSize="12dp"
+                android:text="새로고침"/>
+            <Button
+                android:id="@+id/main_button_write"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_write"
+                android:background="@drawable/transparency_border"
+                android:textSize="12dp"
+                android:text="글쓰기"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp">
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#111"
+                android:textSize="13dp"
+                android:text="No"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#111"
+                android:textSize="13dp"
+                android:text="제목"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.1"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#111"
+                android:textSize="13dp"
+                android:text="작성자"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#111"
+                android:textSize="13dp"
+                android:text="마감일자"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="#f1f1f1">
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:id="@+id/swipe_layout">
+
+                <ListView
+                    android:id="@+id/main_listView1"
+                    android:layout_width="match_parent"
+                    android:nestedScrollingEnabled="true"
+                    android:background="@drawable/background_listview"
+                    android:layout_height="450dp">
+                </ListView>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </LinearLayout>
+
+        <!--Footer-->
+        <LinearLayout
+            android:id="@+id/footer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#313131"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="대표이사 : 남경현 | 사업자등록번호 : 220-81-60839"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="주소 : 서울 금천구 가산디지털1로 233 에이스하이엔드타워 9차 806~808호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="통신판매업 : 제2010-서울금천-0024호 | 직업정보제공사업 : 서울관악 제2009-23호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="팩스 : 02-561-2250 | 전자우편 elite@elitekorea.com"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text=" 고객센터 : 02-561-2133 (업무시간 10:00 ~ 18:00, 토요일 휴무)"
+                android:textColor="#fdfdfd"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copyright © 2017 Elitekorea Corp. All Rights Reserved."
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="9dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

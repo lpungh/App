@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp">
+                <RelativeLayout
+                    android:visibility="visible"
+                    android:id="@+id/login_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:text="페이스북으로 간편하게 로그인"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            />
+                        <com.facebook.login.widget.LoginButton
+                            android:id="@+id/login_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="30dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:visibility="invisible"
+                    android:id="@+id/user_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                        <TextView
+                            android:layout_toRightOf="@+id/userProfile"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/userName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <com.facebook.login.widget.ProfilePictureView
+                            android:id="@+id/userProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            />
+                </RelativeLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/frameLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_toRightOf="@id/button1"
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_toRightOf="@id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+
+</RelativeLayout>

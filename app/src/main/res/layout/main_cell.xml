@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#CFE0F0"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:text="example"
+        android:id="@+id/iv_Logo"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:textSize="12sp"
+        android:textColor="#666666"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:text="example"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignTop="@id/iv_Logo"
+        android:layout_marginRight="3dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_toRightOf="@id/iv_Logo"
+        />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaaaa"
+        android:textColor="#444444"
+        android:textSize="13sp"
+        android:layout_marginRight="3dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/tvName"
+        android:layout_toRightOf="@id/iv_Logo" />
+
+    <TextView
+        android:id="@+id/tvQualification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="13sp"
+        android:layout_marginRight="3dp"
+        android:layout_below="@id/tvInfo"
+        android:layout_toRightOf="@id/iv_Logo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

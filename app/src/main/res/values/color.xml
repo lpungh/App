@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <color name="pressed1">#3adede</color>
+    <color name="pressed2">#3d69e3</color>
+
+    <color name="focused1">#f5f5f5</color>
+    <color name="focused2">#f6f6f6</color>
+
+    <color name="default1">#e2e2e2</color>
+    <color name="default2">#ebebeb</color>
+
+    <color name="stroke">#000000</color>
+</resources>

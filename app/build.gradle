@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.example.administrator.ekapp"
+        minSdkVersion 23
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+//    dexOptions {
+//        incremental = true;
+//        preDexLibraries = false
+//        javaMaxHeapSize "4g" // 2g should be also OK
+//    }
+
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC1'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC1'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/jsoup-1.10.3.jar')
+    compile 'com.github.aakira:expandable-layout:1.4.2@aar'
+    compile 'com.ms-square:expandableTextView:0.1.4'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile'com.android.support:design:25.0.0'
+    compile 'com.android.support:support-v4:25.0.0'
+}

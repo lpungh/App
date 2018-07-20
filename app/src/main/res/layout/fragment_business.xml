@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="wrap_content" android:layout_width="match_parent">
+    <LinearLayout 
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Education/Consulting-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Education/Consulting"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="캠프"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="진로캠프 / 취업캠프 / 리더십캠프 / 창업캠프 / 교직원역량강화캠프"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="JOB Matching / Coaching"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="원스톱취업지원 프로그램, 특공대(특별공채대비)프로그램, 찾아가는 맞춤형 프로그램,
+취업동아리 멘토링 프로그램, 컨설턴트 파견 프로그램"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Clinic"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="입사서류, 영문 Resume \u0026 Interview, 이미지, 면접, 면접 UCC"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="정규강좌"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="30dp"
+                android:text="진로강좌 / 취업강좌 / 여대생강좌 / 창업\u00B7창직강좌"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--IT/Event-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#f9f9f9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="IT/Event"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="IT SOLUTION"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="Job Tracking 시스템, 취업정보제공서비스, 경력관리 시스템, 취업행사관리 프로그램,
+취업통계 프로그램, 온라인 취업(진로)상담 시스템, 온라인 인적성 직무능력검사, 사이버 동영상 강좌,
+멘토링 시스템, 설문조사 프로그램, 잡나비 스마트 어플리케이션, 모바일 취업사이트"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="박람회 / JOB Festival"
+                android:textSize="18dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="교내 경진대회 / 신입생 오리엔테이션"
+                android:textSize="18dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="기업인사관계자 초청포럼"
+                android:textSize="18dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="취업지도사 해외연수"
+                android:textSize="18dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--Assessment-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Assessment"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="N\u00B7EST / K\u00B7SAT"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="대기업모의직무능력검사 / 금융권모의직무능력검사 / 종합인성\u00B7직무적성검사 /
+기초학습능력평가(신입생용) / 자기주도학습자격시험 / 스마트 OMR 솔루션"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="대학강의, 교수 평가 시스템"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="30dp"
+                android:text="학생 출석관리 시스템, 학생 행복도 조사, 신입생 실태 조사,
+성적처리 및 리포트 솔루션, 국가고시 및 중간\u00B7기말고사 스마트 솔루션"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--Publishing-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#f9f9f9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="Publishing"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="진로책자"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="Career Diary, 진로가이드, 예절가이드, 직무분석과 경력개발"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="취업책자"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="취업가이드, Cartoon취업가이드, 면접백과, 면접Q\u0026A, 인적성\u00B7직무능력검사,
+취업사이트 활용가이드"
+                android:textSize="14dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="취업진로교수법(교수가이드)"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="홍보책자"
+                android:textSize="20dp"
+                android:textColor="#515151"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="30dp"
+                android:text="홍보용 브로슈어, 리플렛, 인재정보가이드 등"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+        <!--Footer-->
+        <LinearLayout
+            android:id="@+id/footer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#313131"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="대표이사 : 남경현 | 사업자등록번호 : 220-81-60839"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="주소 : 서울 금천구 가산디지털1로 233 에이스하이엔드타워 9차 806~808호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="통신판매업 : 제2010-서울금천-0024호 | 직업정보제공사업 : 서울관악 제2009-23호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="팩스 : 02-561-2250 | 전자우편 elite@elitekorea.com"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text=" 고객센터 : 02-561-2133 (업무시간 10:00 ~ 18:00, 토요일 휴무)"
+                android:textColor="#fdfdfd"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copyright © 2017 Elitekorea Corp. All Rights Reserved."
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="9dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_homepage"
+            android:title="홈"
+            />
+        <item
+            android:icon="@drawable/ic_jobinfo"
+            android:id="@+id/EliteJob"
+            android:title="채용정보"
+            />
+        <item
+            android:id="@+id/JobNews"
+            android:icon="@drawable/ic_program"
+            android:title="취업 뉴스" />
+        <item
+            android:id="@+id/EliteProgram"
+            android:icon="@drawable/ic_ncs"
+            android:title="ELITE 프로그램" />
+        <item
+            android:id="@+id/EliteAbout"
+            android:icon="@drawable/ic_consultant"
+            android:title="회사소개" />
+        <item
+            android:icon="@drawable/ic_business"
+            android:id="@+id/EliteBusiness"
+            android:title="주요 사업"/>
+        <item
+            android:id="@+id/EliteGetJob"
+            android:icon="@drawable/ic_intro"
+            android:title="EK 구인정보" />
+    </group>
+
+    <group
+        android:id="@+id/menu_middle"
+        android:checkableBehavior="none">
+        <item
+            android:icon="@drawable/ic_arrow"
+            android:id="@+id/EliteWeb"
+            android:title="EliteKorea"/>
+        <item
+            android:icon="@drawable/ic_arrow"
+            android:id="@+id/Jobyoung"
+            android:title="Jobyoung"/>
+        <item
+            android:icon="@drawable/ic_arrow"
+            android:id="@+id/HRD"
+            android:title="HRD-NET"/>
+        <item
+            android:icon="@drawable/ic_arrow"
+            android:id="@+id/careerNet"
+            android:title="커리어넷" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:icon="@drawable/ic_facebook"
+            android:id="@+id/eliteFacebook"
+            android:title="페이스북 가기"/>
+        <item
+            android:icon="@drawable/ic_instagram"
+            android:id="@+id/eliteInstagram"
+            android:title="인스타그램 가기"/>
+
+    </group>
+</menu>

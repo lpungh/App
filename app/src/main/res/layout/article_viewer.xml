@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--상단바-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/topbar_border"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/article_button_cancel"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/transparency_border"
+            android:text="닫기"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/line_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end">
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/line_color"/>
+            <Button
+                android:id="@+id/article_button_modify"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/transparency_border"
+                android:text="수정"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/line_color"/>
+            <Button
+                android:id="@+id/article_button_delete"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/transparency_border"
+                android:text="삭제"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--내용-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="7dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/article_viewer_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="23dp"
+            android:gravity="center_vertical"
+            android:text="제목"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingRight="10dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:textColor="#111"
+                android:textSize="13dp"
+                android:text="작성일자"/>
+            <TextView
+                android:id="@+id/article_viewer_date"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:textSize="13dp"
+                android:text="2017/00/00"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#111"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:textSize="13dp"
+                android:text="작성자"/>
+            <TextView
+                android:id="@+id/article_viewer_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:textSize="13dp"
+                android:text="홍길동"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#111"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:textSize="13dp"
+                android:text="마감일자"/>
+            <TextView
+                android:id="@+id/article_viewer_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:textSize="13dp"
+                android:text="5.15"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/line_color"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13">
+            <TextView
+                android:id="@+id/article_viewer_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="14dp"
+                android:textColor="#222"
+                android:text="내용" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

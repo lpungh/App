@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--개요-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="개요"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="㈜엘리트코리아는 대학과 기업발전의 원동력이 되고자 '인재개발 및 활용'을 테마로 1998년 취업컨설팅 전문회사로 출범하게 되었습니다."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="올해 창립 15주년을 맞는 저희 ㈜엘리트코리아는 개인존중·인재육성·사회공헌의 경영 3원칙을 기본으로, 대학생 리크루팅 분야에서 NO1 의 입지를 굳히며 종합적인 채용전문 컨설팅회사로 성장하게 되었습니다."/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--보도자료-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#f9f9f9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="보도자료"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+
+            <!--content-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:scaleType="center"
+                android:src="@drawable/elitekorea_intro"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="▶   대학취업지원기관 인지도 · 만족도 조사 3년 연속 1위 \n     ( 고용노동부,  2008~2010년 )"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="▶   교육역량강화 사업  취업분야 아웃소싱 전문기업 1위"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="▶   고용노동부  취업캠프 · 기업탐방 대행 기관 선정 ( 2012년 )"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--주요사업-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="주요사업"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/elite" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--약도-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#f9f9f9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="약도"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:src="@drawable/elitekorea_map"/>
+        </LinearLayout>
+
+        <!--Footer-->
+        <LinearLayout
+            android:id="@+id/footer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#313131"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="대표이사 : 남경현 | 사업자등록번호 : 220-81-60839"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="주소 : 서울 금천구 가산디지털1로 233 에이스하이엔드타워 9차 806~808호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="통신판매업 : 제2010-서울금천-0024호 | 직업정보제공사업 : 서울관악 제2009-23호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="팩스 : 02-561-2250 | 전자우편 elite@elitekorea.com"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text=" 고객센터 : 02-561-2133 (업무시간 10:00 ~ 18:00, 토요일 휴무)"
+                android:textColor="#fdfdfd"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copyright © 2017 Elitekorea Corp. All Rights Reserved."
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="9dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

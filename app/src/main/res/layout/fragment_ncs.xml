@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--개요-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="개요"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:lineSpacingMultiplier="2"
+                android:text=" 1. 자격증의 명칭 및 종류 : NCS 진로취업컨설턴트 1급\n
+2. 등록번호 : 2016-003946호\n
+3. 자격증 관리기관 : 진취적인교육협동조합\n
+4. 자격증 허가기관 : 고용노동부장관\n
+5. 자격증 교육기관 : ㈜엘리트코리아\n
+6. 자격증 등록기관 : 한국직업능력개발원\n
+7. 관련근거 : 자격기본법 제 7조 제 2항, 동법시행령 제 23조 제 4항 및 제 23조의 2 제 2항\n
+8. 자격증 소지자의 직무내용"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:lineSpacingMultiplier="2"
+                android:text=" ○ 대학생(졸업자 포함) 및 일반 구직자를 대상으로
+국가직무능력표준(NCS)기반의 진로 취업 목표 달성을 위한
+교육과정의 개발, 멘토링, 강의 및 코칭 등의 역할을 수행 할 수 있으며\n
+○ NCS 기반의 자기소개서 및 면접 클리닉 활동을 단독으로
+수행할 수 있는 전문 컨설턴트로서의 직무를 수행한다"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--교육 대상자-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#f9f9f9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="교육 대상자"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="2"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="30dp"
+                android:text=" ○  NCS 채용기업의 인사(채용) 부서 관계자\n
+○  대학 및 교육기관에서 학생의 진로 및 취업분야 강의를 담당하는 교수 및 강사\n
+○  대학의 산학협력단, 링크사업단 전담교수 및 진로취업 교과목 담당 시간강사\n
+○  대학의 IPP 사업에 참여하는 현장지도 교수 및 취업지도 담당교수\n
+○  대학의 취업지원센터에서 진로취업업무를 담당하는 관계자(취업지원관 등)\n
+○  고등학교에서 학생진로 및 취업지도, 상담업무를 담당하는 관계자 (취업지원관)\n
+○  고용지원센터, 일자리센터, 전직지원센터 및 취업성공패키지 사업에서 취업지원 (자기소개서 클리닉, 면접클리닉 등) 업무를 담당하고있는 직업 상담사\n
+○  기타 취업준비 중인 시니어 및 전직을 준비하는 직장인 등"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--기타 특기사항-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="기타 특기사항"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="2"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="30dp"
+                android:text=" ○  ‘NCS 진로취업 컨설턴트’ 1급 자격증은 고용노동부장관의 허가를 받아
+한국직업능력개발원에 등록한 민간자격증입니다.\n
+○  ‘NCS진로취업컨설턴트’ 1급의 교육과정은 대학의 15주 강좌에 맞게 교육과정을
+편성하고,  관련교재(한권으로 정리하는 NCS)를 제공합니다\n
+○   2015년 하반기부터 300여 개 주요 공기업에서 대졸 신입사원 채용을
+NCS기반의 채용방식을 적용하고 있으며, 이러한 추세는 공무원 및 대기업으로
+확산되고 있어 각 대학에서는 재학생 진로 및 취업지원을 위해 진로취업 관련 교과목을
+필수 교과목으로 개설할 것을 권장하고 있음"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line_color"/>
+
+        <!--교육과정-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical"
+            android:background="#f9f9f9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:text="교육 과정"
+                android:textColor="#111111"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorPrimaryLight"/>
+
+            <!--content-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:src="@drawable/ncs_schedule"/>
+           
+        </LinearLayout>
+
+        <!--Footer-->
+        <LinearLayout
+            android:id="@+id/footer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#313131"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="대표이사 : 남경현 | 사업자등록번호 : 220-81-60839"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="주소 : 서울 금천구 가산디지털1로 233 에이스하이엔드타워 9차 806~808호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="통신판매업 : 제2010-서울금천-0024호 | 직업정보제공사업 : 서울관악 제2009-23호"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="팩스 : 02-561-2250 | 전자우편 elite@elitekorea.com"
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="11dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text=" 고객센터 : 02-561-2133 (업무시간 10:00 ~ 18:00, 토요일 휴무)"
+                android:textColor="#fdfdfd"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Copyright © 2017 Elitekorea Corp. All Rights Reserved."
+                android:textColor="#dddddd"
+                android:textAlignment="center"
+                android:textSize="9dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

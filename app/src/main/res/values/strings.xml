@@ -1,0 +1,12 @@
+<resources>
+    <string name="facebook_app_id">112718146004591</string>
+    <string name="app_name">ELITE KOREA</string>
+    <string name="introduce_ek">• 대학취업지원기관 인지도 · 만족도 조사 3년 연속 1위\n
+( 고용노동부,  2008~2010년 )
+• 교육역량강화 사업  취업분야 아웃소싱 전문기업 1위\n
+( 교육과학기술부,  2011년 )
+• 고용노동부  취업캠프 · 기업탐방 대행 기관 선정 ( 2012년 )\n
+</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>
